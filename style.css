@@ -1,0 +1,123 @@
+#wrapper {
+    padding: 5px;
+    box-sizing: border-box;
+    width: 1250px;
+    height: 610px;
+    background-color: #3D3D3D;
+    margin: auto;
+}
+
+#info {
+    float: inline-start;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    background-color: #3D3D3D;
+    margin: auto;
+}
+
+#controls {
+    position: relative;
+    float: inline-end;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    background-color: #3D3D3D;
+    margin: auto;
+    padding-top: 5%;
+}
+
+#info div{
+    padding-top: 20%;
+    position: relative;
+    box-sizing: border-box;
+    height: 50%;
+    background-color: #3D3D3D;
+}
+
+#info img{
+    display: block;
+    filter: grayscale(100%);
+    height: 40%;
+    margin: auto;
+    color: white;
+}
+
+#info label {
+    padding-top: 20px;
+    display: block;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+
+#controls div {
+    padding-top: 20%;
+    position: relative;
+    box-sizing: border-box;
+    height: 50%;
+    background-color: #3D3D3D;
+    margin: auto;
+}
+
+#controls button{
+    width: 60%;
+    height: 40%;
+    display: block;
+    margin: auto;
+    font-size: 24px;
+    background-color: #3D3D3D;
+    color:white;
+    border-radius:5px;
+}
+
+#controls button:hover {
+    background-color: #4D4D4D;
+}
+
+#board{
+    float: none;
+    /* margin-top: -200px; */
+    display: inline-block;
+    box-sizing: border-box;
+    width:50%;
+    height: 100%;
+    background-color: #3D3D3D;
+    margin: auto;
+}
+div.row {
+    box-sizing: border-box;
+    width: 100%;
+    height: 12.5%;
+    background-color:#3D3D3D;
+}
+
+div.field {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 12.5%;
+    height: 100%;
+    background-color: #ADADAD;
+    border: 2px solid #3D3D3D;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#3D3D3D;
+}
+
+div.field img{
+    margin-top: -10px;
+    width: 70%;
+    fill: #DEDEDE;
+}
+
+div.field:hover {
+    background-color: #DEDEDE;
+}
