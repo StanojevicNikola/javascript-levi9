@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MATF Sweeper</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+
+    <!-- <script src="./module.js" type="module"></script> -->
+</head>
+
+<body>
+    <div id='wrapper'>
+        <div id='info'>
+            <div id='flags'>
+                <img src='resources/flag.svg'>
+                <label id='flagCounter'>0/10</label>
+            </div>
+            <div id='time'>
+                <img src='resources/clock.svg'>
+                <label id='timeCounter'>00:00</label>
+            </div>
+        </div>
+        <div id='board'>
+
+            <div class='row' id='row-1'>
+                <div class='field' id='1'></div>
+                <div class='field' id='2'></div>
+                <div class='field' id='3'></div>
+                <div class='field' id='4'></div>
+                <div class='field' id='5'></div>
+                <div class='field' id='6'></div>
+                <div class='field' id='7'></div>
+                <div class='field' id='8'></div>
+            </div>
+
+            <div class='row' id='row-2'>
+                <div class='field' id='9'></div>
+                <div class='field' id='10'></div>
+                <div class='field' id='11'></div>
+                <div class='field' id='12'></div>
+                <div class='field' id='13'></div>
+                <div class='field' id='14'></div>
+                <div class='field' id='15'></div>
+                <div class='field' id='16'></div>
+            </div>
+
+            <div class='row' id='row-3'>
+                <div class='field' id='17'></div>
+                <div class='field' id='18'></div>
+                <div class='field' id='19'></div>
+                <div class='field' id='20'></div>
+                <div class='field' id='21'></div>
+                <div class='field' id='22'></div>
+                <div class='field' id='23'></div>
+                <div class='field' id='24'></div>
+            </div>
+
+            <div class='row' id='row-4'>
+                <div class='field' id='25'></div>
+                <div class='field' id='26'></div>
+                <div class='field' id='27'></div>
+                <div class='field' id='28'></div>
+                <div class='field' id='29'></div>
+                <div class='field' id='30'></div>
+                <div class='field' id='31'></div>
+                <div class='field' id='32'></div>
+            </div>
+
+            <div class='row' id='row-5'>
+                <div class='field' id='33'></div>
+                <div class='field' id='34'></div>
+                <div class='field' id='35'></div>
+                <div class='field' id='36'></div>
+                <div class='field' id='37'></div>
+                <div class='field' id='38'></div>
+                <div class='field' id='39'></div>
+                <div class='field' id='40'></div>
+            </div>
+
+
+            <div class='row' id='row-6'>
+                <div class='field' id='41'></div>
+                <div class='field' id='42'></div>
+                <div class='field' id='43'></div>
+                <div class='field' id='44'></div>
+                <div class='field' id='45'></div>
+                <div class='field' id='46'></div>
+                <div class='field' id='47'></div>
+                <div class='field' id='48'></div>
+            </div>
+
+            <div class='row' id='row-7'>
+                <div class='field' id='49'></div>
+                <div class='field' id='50'></div>
+                <div class='field' id='51'></div>
+                <div class='field' id='52'></div>
+                <div class='field' id='53'></div>
+                <div class='field' id='54'></div>
+                <div class='field' id='55'></div>
+                <div class='field' id='56'></div>
+            </div>
+
+            <div class='row' id='row-8'>
+                <div class='field' id='57'></div>
+                <div class='field' id='58'></div>
+                <div class='field' id='59'></div>
+                <div class='field' id='60'></div>
+                <div class='field' id='61'></div>
+                <div class='field' id='62'></div>
+                <div class='field' id='63'></div>
+                <div class='field' id='64'></div>
+            </div>
+
+        </div>
+
+        <div id='controls'>
+            <div id='start'>
+                <button onclick=restartGame()>Start Over</button>
+            </div>
+            <div id='pause'>
+                <button onclick={goToLeaderboard()}>Leaderboard</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script src='./module.js'></script> -->
+    <script src="./main.js" >beginGame()</script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
