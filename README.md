@@ -7,5 +7,6 @@ Start server with:
 ```
 npm start
 ```
-Game is available at http://localhost:3001
-----
+After starting server, game is available at http://localhost:3001
+
+
