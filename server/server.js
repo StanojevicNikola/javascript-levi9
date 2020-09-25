@@ -12,12 +12,12 @@ app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     next();
   });
-  
-app.get('/', function(req, res) {
-    res.sendFile('/home/ov3rlord/Desktop/[JS] Drugi projekat/public/index.html');
-});
 
 app.use(express.static(path.join(__dirname, "public")));
+  
+app.get('/', function(req, res) {
+    res.sendFile('public/index.html');
+});
 
 PlayersController.registerRoutes(app);
 
