@@ -10,3 +10,5 @@ npm start
 After starting server, game is available at http://localhost:3001
 
 
+## In-game preview
+[screenshot](screenshot.png)
