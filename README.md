@@ -1,6 +1,6 @@
 # Minesweeper game
 
-Simple implementation of popular minesweeper game in vanilla JavaScript. Part of the JavaScript course at Faculty of Mathematics, organized in cooperation with Levi9.
+Simple implementation of popular minesweeper game in JavaScript. Part of the JavaScript course at Faculty of Mathematics, organized in cooperation with Levi9.
 
 
 When inside server directory start server with:
